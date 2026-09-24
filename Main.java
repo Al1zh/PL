@@ -1,14 +1,7 @@
 import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
-        int a = sc.nextInt();
-        int b = sc.nextInt();
-
-        double c = Math.sqrt(a * a + b * b);
-
-        System.out.println(c);
-    }
-}
+        Scanner s = new Scanner(System.in);
+        int n=s.nextInt();
+        System.out.println("The next number for the number " + n + " is " + (n + 1) + ".");
+        System.out.println("The previous number for the number " + n + " is " + (n - 1) + ".");
